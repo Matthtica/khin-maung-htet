@@ -1,0 +1,66 @@
+{
+    "C": {
+        "name": "C",
+        "level": 6
+    },
+    "cpp": {
+        "name": "C++",
+        "level": 5
+    },
+    "html": {
+        "name": "HTML",
+        "level": 5
+    },
+    "css": {
+        "name": "CSS",
+        "level": 5
+    },
+    "scss": {
+        "name": "SCSS",
+        "level": 5
+    },
+    "tailwind": {
+        "name": "Tailwind CSS",
+        "level": 5
+    },
+    "leet": {
+        "name": "Problem Solving",
+        "level": 4
+    },
+    "vue": {
+        "name": "VueJS",
+        "level": 4
+    },
+    "nuxt": {
+        "name": "NuxtJS",
+        "level": 4
+    },
+    "react": {
+        "name": "ReactJS",
+        "level": 4
+    },
+    "js": {
+        "name": "Javascript",
+        "level": 4
+    },
+    "ts": {
+        "name": "Typescript",
+        "level": 4
+    },
+    "rest": {
+        "name": "REST API",
+        "level": 3
+    },
+    "cl": {
+        "name": "CommonLisp",
+        "level": 3
+    },
+    "py": {
+        "name": "Python",
+        "level": 2
+    },
+    "kt": {
+        "name": "Kotlin",
+        "level": 2
+    }
+}

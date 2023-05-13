@@ -1,0 +1,158 @@
+@font-face {
+    font-family: campus;
+    src: url('@/resources/campus.ttf');
+}
+
+@font-face {
+    font-family: bleeding-cowboy;
+    src: url('@/resources/Bleeding_Cowboys.ttf');
+}
+
+@font-face {
+    font-family: kirsty;
+    src: url('@/resources/kirsty rg.otf');
+}
+
+@font-face {
+    font-family: raleway;
+    src: url('@/resources/Raleway-ValiableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: instrument_sans;
+    src: url('@/resources/Instrument_Sans/InstrumentSans.ttf');
+}
+
+@font-face {
+    font-family: roboto;
+    src: url('@/resources/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: roboto-black;
+    src: url('@/resources/Roboto/Roboto-Black.ttf');
+}
+
+@font-face {
+    font-family: roboto-bold;
+    src: url('@/resources/Roboto/Roboto-Bold.ttf');
+}
+
+.font-roboto {
+    font-family: roboto;
+}
+
+.font-roboto-bold {
+    font-family: roboto-bold;
+}
+
+.font-roboto-black {
+    font-family: roboto-black;
+}
+
+.font-instrument {
+    font-family: instrument_sans;
+}
+
+.font-campus {
+    font-family: campus;
+}
+
+.font-cowboy {
+    font-family: bleeding-cowboy;
+}
+
+.font-kirsty {
+    font-family: kirsty;
+}
+
+.font-raleway {
+    font-family: raleway;
+}
+
+:root {
+    --main-color: #e95049;
+    --vintage-white: #FAF4D7;
+    --vintage-blue: #8BB0AB;
+    --paper-blue: #283F75;
+    --paper-red: #773232;
+    --paper-black: #070707;
+    --paper-white: #E3DDD3;
+    --dark-gray: #313131;
+}
+
+.border-3 {
+    border-width: 3px;
+}
+
+.border-main {
+    border-color: var(--paper-blue);
+}
+
+.text-paper-blue {
+    color: var(--paper-blue);
+}
+
+.text-paper-red {
+    color: var(--paper-red);
+}
+
+.text-paper-black {
+    color: var(--paper-black);
+}
+
+.text-paper-white {
+    color: var(--paper-white);
+}
+
+.bg-paper-blue {
+    background-color: var(--paper-blue);
+}
+
+.bg-paper-red {
+    background-color: var(--paper-red);
+}
+
+.bg-paper-black {
+    background-color: var(--paper-black);
+}
+
+.bg-paper-white {
+    background-color: var(--paper-white);
+}
+
+.text-vintage {
+    color: var(--vintage-white);
+}
+
+.text-vintage-blue {
+    color: var(--vintage-blue);
+}
+
+.bg-vintage {
+    background-color: var(--vintage-white);
+}
+
+.bg-vintage-blue {
+    background-color: var(--vintage-blue);
+}
+
+.bg-dark-gray {
+    background-color: var(--dark-gray);
+}
+
+.text-main {
+    color: var(--main-color);
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.text-dark-gray {
+    color: var(--dark-gray);
+}
+
+.pop {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 50%);
+}
