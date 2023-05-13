@@ -9,13 +9,8 @@
 }
 
 @font-face {
-    font-family: kirsty;
-    src: url('@/resources/kirsty rg.otf');
-}
-
-@font-face {
     font-family: raleway;
-    src: url('@/resources/Raleway-ValiableFont_wght.ttf');
+    src: url('@/resources/Raleway-VariableFont_wght.ttf');
 }
 
 @font-face {
@@ -60,10 +55,6 @@
 
 .font-cowboy {
     font-family: bleeding-cowboy;
-}
-
-.font-kirsty {
-    font-family: kirsty;
 }
 
 .font-raleway {

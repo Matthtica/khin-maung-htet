@@ -9,7 +9,7 @@ definePageMeta({
   <div class="h-full p-3">
     <div class="flex items-center justify-evenly w-full mt-3 border-2 border-black p-3 brut">
       <div class="w-[5em] h-[5em] border-2 border-black overflow-clip">
-        <img src="@/resources/cropped-me.jpg"/>
+        <img src="@/resources/cropped-me.png"/>
       </div>
       <div class="flex flex-col justify-center items-center font-semibold bg-video">
         <h1 class="font-cowboy text-4xl text-paper-blue">Khin Maung Htet</h1>
