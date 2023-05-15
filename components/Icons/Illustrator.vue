@@ -1,5 +1,5 @@
 <template>
-  <IconsTemplate name="Illustrator">
+  <IconsTemplate link="https://www.adobe.com/products/illustrator.html">
     <path
       fill-rule="evenodd"
       clip-rule="evenodd"

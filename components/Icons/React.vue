@@ -1,5 +1,7 @@
 <template>
-  <IconsTemplate name="React">
+  <IconsTemplate
+    link="https://react.dev/"
+  >
       <g fill="black">
         <circle cx="64" cy="64" r="11.4"></circle>
         <path

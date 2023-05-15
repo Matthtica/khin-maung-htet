@@ -13,7 +13,7 @@ defineProps({
     >
       {{ title }}
     </h1>
-    <div class="description flex w-8/12 flex-col">
+    <div class="description flex w-9/12 flex-col">
       <div class="font-cowboy text-2xl">
         Level - <span class="text-paper-blue pop">{{ level }}</span>
       </div>

@@ -1,5 +1,5 @@
 <template>
-  <IconsTemplate name="Postgresql">
+  <IconsTemplate link="https://www.postgresql.org/">
     <path
       fill-rule="evenodd"
       clip-rule="evenodd"

@@ -1,5 +1,5 @@
 <template>
-  <IconsTemplate name="Photoshop">
+  <IconsTemplate link="https://www.adobe.com/products/photoshop.html">
     <path
       fill-rule="evenodd"
       clip-rule="evenodd"

@@ -1,8 +1,8 @@
 <script setup></script>
 
 <template>
-  <div class="mt-12 flex flex-col">
-    <h1 class="font-cowboy text-4xl text-end pop mb-5 text-paper-red">Skills</h1>
+  <div class="mt-12 flex flex-col gap-6">
+    <h1 class="font-cowboy text-4xl text-end pop text-paper-red">Skills</h1>
     <BlocksSkill
       title="Front-End Developer"
       level="Advanced"
@@ -14,7 +14,7 @@
       extensive instructions, even for simple tasks
       like opening a door."
     >
-      <div class="grid grid-cols-2 gap-3 w-96">
+      <div class="skill-icons grid grid-cols-2 gap-5 mr-4">
         <IconsReact/>
         <IconsVue />
         <IconsSvelte />
@@ -23,7 +23,6 @@
         <IconsJavascript />
       </div>
     </BlocksSkill>
-    <div class="h-5"></div>
     <BlocksSkill
       title="Back-End Developer"
       level="Intern"
@@ -34,7 +33,7 @@
       for software systems, always thinking ahead to
       ensure they can handle increased demand as they grow."
     >
-      <div class="grid grid-cols-2 gap-3 w-96">
+      <div class="skill-icons grid grid-cols-2 gap-5 mr-5">
         <IconsNode />
         <IconsNuxt />
         <IconsPostgresql />
@@ -43,7 +42,6 @@
         <IconsTypescript />
       </div>
     </BlocksSkill>
-    <div class="h-5"></div>
     <BlocksSkill
       title="Graphics Designer"
       level="Certified"
@@ -54,12 +52,11 @@
       with the latest design trends and bring
       a fresh perspective to every project."
     >
-      <div class="grid grid-cols-1 gap-3">
+      <div class="skill-icons grid grid-cols-1 gap-3">
         <IconsPhotoshop />
         <IconsIllustrator />
       </div>
     </BlocksSkill>
-    <div class="h-5"></div>
     <BlocksSkill
       title="Graphics Programmer"
       level="Undefined / Hobby"
@@ -71,7 +68,7 @@
       efficient and reliable code that meets
       project needs."
     >
-      <div class="grid grid-cols-2 gap-3">
+      <div class="skill-icons grid grid-cols-2 gap-3">
         <IconsRust />
         <IconsC />
         <IconsCpp />
@@ -89,5 +86,11 @@
 .stuck-at-rl {
   bottom: -8%;
   right: 0;
+}
+
+@media (max-width: 800px) {
+  .skill-icons {
+    display: flex;
+  }
 }
 </style>

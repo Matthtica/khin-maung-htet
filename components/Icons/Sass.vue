@@ -1,5 +1,5 @@
 <template>
-  <IconsTemplate name="Sass">
+  <IconsTemplate link="https://sass-lang.com/">
     <path
       fill-rule="evenodd"
       clip-rule="evenodd"

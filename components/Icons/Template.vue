@@ -1,18 +1,13 @@
 <script setup>
 defineProps({
-  name: String,
+  link: String
 });
 </script>
 
 <template>
-  <div class="flex items-center gap-1">
-    <div class="w-10 h-10">
-      <svg viewBox="0 0 128 128">
-        <slot></slot>
-      </svg>
-    </div>
-    <h1 class="text-md font-bold">
-      {{ name }}
-    </h1>
-  </div>
+  <a class="w-8 h-8 cursor-pointer" target="_blank" :href="link">
+    <svg viewBox="0 0 128 128">
+      <slot></slot>
+    </svg>
+  </a>
 </template>
