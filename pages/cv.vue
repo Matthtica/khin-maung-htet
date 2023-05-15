@@ -84,7 +84,7 @@
           </div>
           <div>
             <h2 class="font-roboto-bold">Portfolio website</h2>
-            <a href="" target="_blank" class="underline"> mg-xtet.com </a>
+            <a href="https://khin-maung-htet.vercel.app/" target="_blank" class="underline">khin-maung-htet.vercel.app</a>
           </div>
           <div>
             <h2 class="font-roboto-bold">LinkedIn</h2>

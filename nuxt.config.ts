@@ -6,6 +6,6 @@ export default defineNuxtConfig({
         '@nuxt/image-edge'
     ],
     css: [
-        '@/assets/global.css'
+        '@/assets/global.css',
     ]
 })

@@ -7,13 +7,13 @@ defineProps({
 </script>
 
 <template>
-  <div class="flex h-56 gap-5 items-center border-2 border-main rounded-md p-3 backdrop-blur shadow-lg">
+  <div class="box flex gap-5 items-center border-2 border-main rounded-md p-3 backdrop-blur shadow-lg">
     <h1
-      class="border-2 border-main text-xl font-wide write-vert-rl text-center px-2 bg-white"
+      class="role h-48 border-2 border-main text-xl font-wide write-vert-rl text-center px-2 bg-white"
     >
       {{ title }}
     </h1>
-    <div class="flex w-8/12 flex-col">
+    <div class="description flex w-8/12 flex-col">
       <div class="font-cowboy text-2xl">
         Level - <span class="text-paper-blue pop">{{ level }}</span>
       </div>
@@ -27,7 +27,7 @@ defineProps({
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .pop {
   text-shadow: 1px 1px 3px rgb(0, 0, 0, 40%);
 }
@@ -38,5 +38,20 @@ defineProps({
 
 .write-vert-rl {
   writing-mode: vertical-rl;
+}
+
+@media (max-width: 800px) {
+  .box {
+    flex-direction: column;
+    height: auto;
+  }
+  .role {
+    writing-mode: horizontal-tb;
+    height: auto;
+    width: 20ch;
+  }
+  .description {
+    width: 100%;
+  }
 }
 </style>

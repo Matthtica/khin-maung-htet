@@ -11,7 +11,9 @@
   "devDependencies": {
     "@nuxt/image-edge": "^1.0.0-27991759.1a5eea1",
     "@types/three": "^0.150.0",
-    "nuxt": "^3.3.2"
+    "nuxt": "^3.3.2",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2"
   },
   "dependencies": {
     "@iconify/json": "^2.2.40",
