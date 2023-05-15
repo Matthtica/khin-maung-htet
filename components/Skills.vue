@@ -14,14 +14,12 @@
       extensive instructions, even for simple tasks
       like opening a door."
     >
-      <div class="skill-icons grid grid-cols-2 gap-5 mr-4">
-        <IconsReact/>
-        <IconsVue />
-        <IconsSvelte />
-        <IconsSass />
-        <IconsTailwind />
-        <IconsJavascript />
-      </div>
+      <IconsReact />
+      <IconsVue />
+      <IconsSvelte />
+      <IconsSass />
+      <IconsTailwind />
+      <IconsJavascript />
     </BlocksSkill>
     <BlocksSkill
       title="Back-End Developer"
@@ -33,14 +31,12 @@
       for software systems, always thinking ahead to
       ensure they can handle increased demand as they grow."
     >
-      <div class="skill-icons grid grid-cols-2 gap-5 mr-5">
-        <IconsNode />
-        <IconsNuxt />
-        <IconsPostgresql />
-        <IconsGit />
-        <IconsGoogleCloud />
-        <IconsTypescript />
-      </div>
+      <IconsNode />
+      <IconsNuxt />
+      <IconsPostgresql />
+      <IconsGit />
+      <IconsGoogleCloud />
+      <IconsTypescript />
     </BlocksSkill>
     <BlocksSkill
       title="Graphics Designer"
@@ -52,10 +48,8 @@
       with the latest design trends and bring
       a fresh perspective to every project."
     >
-      <div class="skill-icons grid grid-cols-1 gap-3">
-        <IconsPhotoshop />
-        <IconsIllustrator />
-      </div>
+      <IconsPhotoshop />
+      <IconsIllustrator />
     </BlocksSkill>
     <BlocksSkill
       title="Graphics Programmer"
@@ -68,12 +62,10 @@
       efficient and reliable code that meets
       project needs."
     >
-      <div class="skill-icons grid grid-cols-2 gap-3">
-        <IconsRust />
-        <IconsC />
-        <IconsCpp />
-        <IconsOpenGL />
-      </div>
+      <IconsRust />
+      <IconsC />
+      <IconsCpp />
+      <IconsOpenGL />
     </BlocksSkill>
   </div>
 </template>

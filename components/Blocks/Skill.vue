@@ -21,9 +21,9 @@ defineProps({
         {{ description }}
       </div>
     </div>
-    <slot>
-      Nothing
-    </slot>
+    <div class="skill-icons grid grid-cols-2 gap-3">
+      <slot/>
+    </div>
   </div>
 </template>
 
@@ -52,6 +52,9 @@ defineProps({
   }
   .description {
     width: 100%;
+  }
+  .skill-icons {
+    display: flex;
   }
 }
 </style>
